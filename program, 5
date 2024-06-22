@@ -1,0 +1,14 @@
+Q .Write a 'C' program to perform all arithmetic operations on two
+integers.
+
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  printf("enter two number");
+  scanf("%d%d",&a,&b);
+  printf("\n Addition=%d",a+b);
+  printf("\n Substraction=%d",a-b);
+  printf("\n Multiplication=%d",a*b);
+  printf("\n Division=%f",(float)a/b);
+}
