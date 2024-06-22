@@ -1,0 +1,17 @@
+Q. Write a function in C' to calculate sum of digits of an integer. Use
+this function in main...
+
+#include<stdio.h>
+int main()
+{
+ int s=0,d,n;
+ printf("enter number");
+ scanf("%d",&n);
+ while(n>0)
+ {
+ d=n%10;
+ s=s+d;
+ n=n/10;
+ }
+ printf("sum of digit=%d",s);
+}
