@@ -1,0 +1,15 @@
+Q.Write a C program to accept two integers from the user and
+interchange them. Display the interchanged numbers.
+
+#include<stdio.h>
+int main()
+{
+ int a,b,t; 
+printf("enter two number");
+scanf("%d%d",&a,&b);
+t=a;
+a=b;
+b=t;
+printf("\n first number=%d",a);
+printf("\n second number=%d",b);
+}
